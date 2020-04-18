@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>CosmosDB.MongoDB</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.8.0" />
+    <PackageReference Include="MongoDB.Bson" Version="2.10.3" />
+    <PackageReference Include="MongoDB.Driver" Version="2.10.3" />
+  </ItemGroup>
+
+</Project>
